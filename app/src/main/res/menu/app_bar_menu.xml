@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="Add"
+        android:id="@+id/add_menu_item"
+        android:icon="@drawable/ic_add"
+        app:showAsAction="always"/>
+
+    <item android:title="Message"
+        android:id="@+id/message_menu_item"
+        android:icon="@drawable/ic_message"
+        app:showAsAction="always"/>
+
+    <item android:title="Home"
+        android:id="@+id/home_menu_item"
+        android:icon="@drawable/ic_home"
+        app:showAsAction="always"/>
+
+
+
+    <item android:title="Close"
+        android:id="@+id/close_menu_item"
+        android:icon="@drawable/ic_close"
+        app:showAsAction="always"/>
+</menu>
